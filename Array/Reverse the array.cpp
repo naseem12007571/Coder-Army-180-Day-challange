@@ -6,6 +6,7 @@ int main()
      
      int start=0,end=5;
      while(start<end){
+         swap(arr[start],arr[end]);
          start++;
          end--;
      }
